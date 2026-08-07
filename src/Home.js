@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import BlogCard from '../components/BlogCard';
+import BlogCard from './components/BlogCard';
 import { useAuth } from './context/AuthContext';
-import { categories as defaultCategories, posts as defaultPosts } from '../data';
+import { categories as defaultCategories, posts as defaultPosts } from './data';
 import './Home.css';
 
 
